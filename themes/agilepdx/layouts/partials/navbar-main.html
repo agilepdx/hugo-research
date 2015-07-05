@@ -9,14 +9,11 @@
 				<span class="icon-bar"></span>
 			</button>
 		</div>
-		<div class="collapse navbar-collapse">
+		<div class="collapse navbar-collapse">{{ with .Site.Params.navigation.sections }}
 			<ul class="nav navbar-nav">
-				<li><a href="#section1">Home</a></li>
-				<li><a href="#section2">Events</a></li>
-				<li><a href="#section3">Vision</a></li>
-				<li><a href="#section4">Mission</a></li>
-				<li><a href="#section5">Sponsors</a></li>
-			</ul>
+				{{ range $i, $e := $.Site.Params.navigation.sections }}
+				<li><a href="#{{ lower $e }}">{{ $e }}</a></li>{{ end }}
+			</ul>{{ end }}
 		</div><!--/.nav-collapse -->
 	</div><!--/.container -->
 </div><!--/.navbar -->
