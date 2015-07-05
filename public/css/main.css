@@ -240,13 +240,13 @@ section {
 	display: inline-block;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	background-color: rgb(197, 44, 102);
+	background-color: #5FC41C;
 	padding: 5px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-	background-color: rgb(165, 82, 167);
+	background-color: #65A838;
 }
 .event-list > li > time > span {
 	display: none;
@@ -318,9 +318,9 @@ section {
 	color: rgb(30, 30, 30);
 	background-color: rgb(200, 200, 200);
 }
-.facebook a,
+.calagator a,
 .twitter a,
-.google-plus a {
+.meetup a {
 	display: block;
 	width: 100%;
 	color: rgb(75, 110, 168) !important;
@@ -328,20 +328,23 @@ section {
 .twitter a {
 	color: rgb(79, 213, 248) !important;
 }
-.google-plus a {
-	color: rgb(221, 75, 57) !important;
+.calagator a {
+	color: #82C555 !important;
 }
-.facebook:hover a {
+.meetup a {
+	color: #e2373c !important;
+}
+.calagator:hover a {
 	color: rgb(255, 255, 255) !important;
-	background-color: rgb(75, 110, 168) !important;
+	background-color: #82C555 !important;
 }
 .twitter:hover a {
 	color: rgb(255, 255, 255) !important;
 	background-color: rgb(79, 213, 248) !important;
 }
-.google-plus:hover a {
+.meetup:hover a {
 	color: rgb(255, 255, 255) !important;
-	background-color: rgb(221, 75, 57) !important;
+	background-color: #e2373c !important;
 }
 
 @media (min-width: 768px) {
