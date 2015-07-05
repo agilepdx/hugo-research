@@ -1,4 +1,13 @@
+# Site settings
 baseurl = "http://agilepdx.org/"
 languageCode = "en-us"
 title = "Agile PDX"
 theme = "agilepdx"
+
+
+[params]
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	[params.navigation]
+		sections = ["Home", "Events", "Vision", "Mission", "Sponsors"]
