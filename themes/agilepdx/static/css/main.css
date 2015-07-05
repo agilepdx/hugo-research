@@ -4,9 +4,6 @@
 html,
 body {
 	height: 100%;
-	/*	color: #333333;*/
-	/* background-color: #90cf79; */
-	/* The html and body elements cannot have any padding or margin. */
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', sans-serif;
 }
