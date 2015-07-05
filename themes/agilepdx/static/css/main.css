@@ -26,6 +26,11 @@ body {
 	padding: 0 0 60px;
 }
 
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Set the fixed height of the footer here */
 #footer {
 	height: 60px;
